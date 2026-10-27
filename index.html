@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cẩm Nang Điện Ảnh</title>
+<meta name="description" content="Bộ cẩm nang tự học làm phim: luật đạo diễn, dàn cảnh và blocking, dựng phim, thủ pháp điện ảnh, rules viết kịch bản và thư viện cảnh phim.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root { --bg: #14130F; --bg-2: #1E1C17; --line: #34302A; --ink: #EDE6D8; --mute: #A69D8C; --gold: #D9B26F; }
+@media (prefers-color-scheme: light) {
+  :root { --bg: #F6F1E7; --bg-2: #FFFFFF; --line: #DED5C4; --ink: #22201B; --mute: #6B6355; --gold: #9A6F25; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 'Be Vietnam Pro', system-ui, sans-serif; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 56px 16px 40px; }
+.eyebrow { font: 500 12px 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); }
+h1 { font: 400 clamp(40px, 8vw, 76px)/1.02 'Anton', sans-serif; letter-spacing: .01em; margin: 10px 0 14px; }
+.lead { color: var(--mute); max-width: 62ch; margin: 0 0 36px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+a.card { display: flex; flex-direction: column; text-decoration: none; color: inherit; background: var(--bg-2); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; transition: transform .15s, border-color .15s; }
+a.card:hover, a.card:focus-visible { transform: translateY(-3px); border-color: var(--c); outline: none; }
+.thumb { aspect-ratio: 16 / 8; background: #000 center / cover no-repeat; border-bottom: 3px solid var(--c); }
+.body { padding: 16px 18px 18px; }
+.n { font: 500 11px 'JetBrains Mono', monospace; letter-spacing: .1em; color: var(--c); text-transform: uppercase; }
+h2 { font-size: 21px; line-height: 1.25; margin: 6px 0 6px; }
+.body p { margin: 0; color: var(--mute); font-size: 14.5px; }
+footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; color: var(--mute); font-size: 13px; }
+.sig { font: 500 11px 'JetBrains Mono', monospace; letter-spacing: .08em; opacity: .75; }
+.sig b { color: var(--gold); font-weight: 500; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow">Tủ sách tự học · phim quay thật và phim AI</span>
+  <h1>Cẩm Nang Điện Ảnh</h1>
+  <p class="lead">Sáu trang học làm phim bằng tiếng Việt. Mỗi mục có câu nhớ, ví dụ từ phim thật, cách làm, mẹo cho phim AI và video YouTube tiếng Việt, tiếng Anh để xem thêm.</p>
+  <div class="grid">
+    <a class="card" href="luat-dao-dien/" style="--c:#D98B6A"><div class="thumb" style="background-image:url(luat-dao-dien/img/r1.jpg)"></div><div class="body"><span class="n">01 · 97 luật</span><h2>Luật Đạo Diễn</h2><p>Dẫn cảm xúc diễn viên và khán giả: phản ứng người nghe, góc cận, nhịp, im lặng.</p></div></a>
+    <a class="card" href="dan-canh-blocking/" style="--c:#7FB08A"><div class="thumb" style="background-image:url(dan-canh-blocking/img/r1.jpg)"></div><div class="body"><span class="n">02 · 83 mục</span><h2>Dàn Cảnh &amp; Blocking</h2><p>Bối cảnh, ánh sáng, bố cục, vị trí và đường đi của diễn viên cùng máy quay.</p></div></a>
+    <a class="card" href="dung-phim/" style="--c:#6FA8C9"><div class="thumb" style="background-image:url(dung-phim/img/1.jpg)"></div><div class="body"><span class="n">03 · 90 mục</span><h2>Dựng Phim</h2><p>Điểm cắt, loại cắt, nhịp, dựng thoại, hành động, âm thanh và quy trình người dựng.</p></div></a>
+    <a class="card" href="kho-thu-phap/" style="--c:#B087C9"><div class="thumb" style="background-image:url(kho-thu-phap/img/01.jpg)"></div><div class="body"><span class="n">04 · 43 thủ pháp</span><h2>Kho Thủ Pháp Điện Ảnh</h2><p>43 thủ pháp và 8 cách vận dụng nâng cao, mỗi mục có ví dụ phim và lời giải thích.</p></div></a>
+    <a class="card" href="kho-rules-kich-ban/" style="--c:#C9A27E"><div class="thumb" style="background-image:url(kho-rules-kich-ban/img/P01.jpg)"></div><div class="body"><span class="n">05 · 142 rules</span><h2>Rules Viết Kịch Bản</h2><p>Giải thích, ví dụ phim, câu tự hỏi khi viết và nguồn cho từng rule.</p></div></a>
+    <a class="card" href="thu-vien-canh-phim/" style="--c:#CC85A6"><div class="thumb" style="background-image:url(thu-vien-canh-phim/Thu-vien-canh-phim-anh/s01.jpg)"></div><div class="body"><span class="n">06 · 1.455 video</span><h2>Thư Viện Cảnh Phim</h2><p>Cảnh phim chọn lọc trên YouTube, xếp theo thể loại, kỹ thuật, đạo diễn và diễn viên.</p></div></a>
+  </div>
+  <footer><span>Ảnh phim thuộc về các hãng phim, chỉ dùng minh họa cho việc học.</span><span class="sig">by <b>Janna Studio</b> · Phap Toan Monk</span></footer>
+</div>
+</body>
+</html>
