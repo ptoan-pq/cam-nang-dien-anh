@@ -202,6 +202,8 @@ nav.tabs { margin-left: auto; display: flex; gap: 6px; overflow-x: auto; }
 footer { margin: 50px 0 30px; padding-top: 16px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; color: var(--muted); font-size: 13px; }
 footer .sig { font: 500 11px var(--mono); letter-spacing: .08em; }
 footer .sig b { color: var(--gold); font-weight: 500; }
+.sb-btn { display: inline-block; margin-right: 10px; padding: 4px 12px; border: 1px solid var(--gold); border-radius: 999px; color: var(--gold); text-decoration: none; font: 600 12px var(--body); letter-spacing: 0; }
+.sb-btn:hover { background: var(--gold); color: var(--dark-ink); }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 @media (max-width: 900px) { .cols, .cmp { grid-template-columns: 1fr; } .hero-img img { aspect-ratio: 16 / 9; } }
 @media (max-width: 640px) {
@@ -281,7 +283,7 @@ footer .sig b { color: var(--gold); font-weight: 500; }
     <div class="panel" id="about"></div>
   </section>
 
-  <footer><span>Ảnh khung hình thuộc về các hãng phim, lấy từ film-grab.com, các kho ảnh đĩa và video chính thức trên YouTube, chỉ dùng minh họa cho việc học; nguồn ghi ở từng ảnh.</span><span class="sig">by <b>Janna Studio</b> <a href="sb-8e36ca1803.html" style="color:inherit;text-decoration:none" aria-label="Ghi chú">·</a> Phap Toan Monk</span></footer>
+  <footer><span>Ảnh khung hình thuộc về các hãng phim, lấy từ film-grab.com, các kho ảnh đĩa và video chính thức trên YouTube, chỉ dùng minh họa cho việc học; nguồn ghi ở từng ảnh.</span><span class="sig"><a class="sb-btn" href="sb-8e36ca1803.html">📖 Style Bible ĐNT</a> by <b>Janna Studio</b> · Phap Toan Monk</span></footer>
 </main>
 
 <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Xem ảnh">
